@@ -1,0 +1,14 @@
+.status-up {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-down {
+    color: #dc3545;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0.4; }
+}
